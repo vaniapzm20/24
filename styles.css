@@ -1,6 +1,6 @@
 body {
     background-image: url("background.png");
-    background-size: cover;
+    background-size: 100% auto;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
     padding: 20px;
@@ -8,10 +8,13 @@ body {
     text-align: center;
     padding: 20% 20%;
     font-size: 20px;
-    
   }
   
 h1 {
+    color:rgb(231, 79, 132)
+  }
+
+h3 {
     color:rgb(231, 79, 132)
   }
 
@@ -36,7 +39,7 @@ button:hover {
 }
 
 .depth-image {
-  width: 25%;
+  width: 20%;
   transition: transform 0.3s ease, z-index 0.3s ease;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
 }
