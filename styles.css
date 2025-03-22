@@ -1,3 +1,35 @@
 body {
     background-image: url("background.png");
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding: 20px;
+    width: 200px;
   }
+  
+  h1 {
+    color:rgb(163, 40, 102)
+  }
+
+.container {
+  /* Your code here */
+  padding: 10px;
+  position: center;
+}
+
+/* Step 4: Style the buttons */
+button {
+  /* Your code here */
+  padding: 10px 20px;
+  margin: 5px;
+  font-size: 12px;
+  cursor: pointer;
+  background-color: #f1f1f1;
+  border-radius: 10px;
+  border-color: #f1f1f1;
+}
+
+/* Step 5: Add hover effects to the buttons */
+button:hover {
+  /* Your code here */
+  background-color: #dddddd;
+}
