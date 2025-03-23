@@ -63,3 +63,7 @@ button:hover {
   font-weight: bold;
   margin: 5px 0;
 }
+
+#bears {
+  width: 40%;
+}
